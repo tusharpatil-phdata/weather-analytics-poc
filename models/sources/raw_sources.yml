@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    database: WEATHER_ANALYTICS
+    schema: RAW
+    tables:
+      - name: raw_weather_current
